@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/mosaic.svg";
+import image from "../images/teslim.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,21 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "A highly motivated DevOps Engineer with entry-level experience in managing infrastructures and cloud engineering. Possess hands-on experience in automating deployments using Terraform and knowledge of Docker and Kubernetes. Experienced in multi-cloud management, infrastructure as code, networking, security, and scripting.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Cloud Computing",
+  "Linux Administration",
+  "Infrastructure as Code",
+  "Containerization",
+  "Container Orchestration",
+  "Bash Scripting",
+  "Configuration Management",
+  "Troubleshooting",
 ];
 
 /**
@@ -45,7 +47,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am confident in my ability to provide effective and efficient cloud infrastructure solutions that meet the needs of modern businesses. I am eager to continue learning and growing as a Cloud Engineer and DevOps professional, and I am open to new opportunities to further develop my skills and make an impact in this exciting field.";
 
 const About = () => {
   return (

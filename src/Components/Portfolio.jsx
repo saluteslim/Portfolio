@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/computer.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Dockerize and deploy a Laravel app🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Using Dockerfile and docker-compose to build and deploy a Laravel App.",
+    url: "https://github.com/saluteslim/altschool-cloud-exercises/tree/main/dockerized_laravel-app",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Using Terraform on AWS",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Creating a virtual private network and connecting it to multiple instances and exposing it on a load balancer and Route53 domain.",
+    url: "https://github.com/saluteslim/altschool-cloud-exercises/tree/main/Terraform_miniproject",
   },
   {
-    title: "My Resume Site",
+    title: "Using Ansible Roles",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Using Ansible Roles to install git, Mongdb and Apache2",
+    url: "https://github.com/saluteslim/ansible-roles",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Deploy a React-App",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Docker compose up the frontend and the backend of the React app.",
+    url: "https://github.com/saluteslim/devops-django-react-task/blob/main/docker-compose.yaml",
   },
 ];
 
