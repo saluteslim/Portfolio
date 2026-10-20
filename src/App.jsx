@@ -13,7 +13,7 @@ import "./styles.css";
 
 const siteProps = {
   name: "TESLIM SALU",
-  title: "Senior Cloud & DevOps Engineer",
+  title: "Cloud & Platform Architect",
   email: "saluayomide@gmail.com",
   gitHub: "saluteslim",
   instagram: "tesloyaa",
