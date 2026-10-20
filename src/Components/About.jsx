@@ -7,23 +7,23 @@ import image from "../images/teslim.jpg";
 const imageAltText = "Teslim Salu";
 
 const description =
-  "I build and operate reliable cloud infrastructure, Kubernetes platforms, delivery pipelines, and observability systems. My work focuses on turning operational problems into repeatable automation using AWS, Terraform, Kubernetes, Helm, ArgoCD, and GitOps.";
+  "Cloud & Platform Architect with 7+ years of experience designing, implementing, and optimizing scalable cloud-native systems and production platforms across AWS, Azure, Google Cloud, and DigitalOcean. I specialize in Kubernetes, infrastructure as code, CI/CD, observability, security, and high-availability systems.";
 
 const skillsList = [
-  "AWS",
-  "Linux & Networking",
-  "Terraform & Infrastructure as Code",
-  "Docker & Kubernetes",
-  "Helm & ArgoCD",
-  "CI/CD & GitHub Actions",
-  "Observability & Incident Response",
-  "PostgreSQL & Managed Databases",
-  "IAM & Secrets Management",
-  "Scripting & Automation",
+  "AWS, Azure, GCP & DigitalOcean",
+  "Kubernetes: EKS, GKE & AKS",
+  "Terraform, Ansible & Crossplane",
+  "Docker, Helm & Kustomize",
+  "ArgoCD, GitOps & CI/CD",
+  "Prometheus, Grafana, Loki & ELK",
+  "PostgreSQL, MySQL, MongoDB & Redis",
+  "Python, Bash, Go & JavaScript",
+  "IAM, Keycloak & Platform Security",
+  "Reliability & High Availability",
 ];
 
 const detailOrQuote =
-  "I also write practical guides about Kubernetes, monitoring, secrets management, and production reliability, and I enjoy contributing to useful open-source work.";
+  "I turn complex infrastructure and operational challenges into reliable, repeatable platforms. I also write practical technical guides about Kubernetes, monitoring, secrets management, and production reliability.";
 
 const About = () => {
   return (
