@@ -5,9 +5,9 @@
   "source": "src/index.html",
   "homepage": "https://saluteslim.github.io/Portfolio",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://saluteslim.github.io/Portfolio'",
+    "start": "node init && parcel",
+    "build": "node init && parcel build",
+    "build-gh": "node init && parcel build --public-url 'https://saluteslim.github.io/Portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
